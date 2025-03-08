@@ -1,0 +1,64 @@
+
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5; /* Light grey background for contrast */
+  }
+  
+  /* Login Container Styling */
+  .login-container {
+    background-color: #ffffff; /* White form background */
+    padding: 2rem;
+    border-radius: 10px; /* Rounded corners for softer look */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Add a drop shadow */
+    max-width: 500px;
+    margin: 4rem auto; /* Center vertically and horizontally */
+  }
+  
+  /* Heading Styling */
+  h2 {
+    color: #0056b3; /* Blue text to match the brand */
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Input Styling */
+  input[type="email"],
+  input[type="password"] {
+    width: calc(100% - 2rem); /* Take full width with padding space */
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1.5px solid #ccc; /* Thinner border for neat look */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #0056b3; /* Blue border on focus for better UX */
+    outline: none;
+  }
+  
+  /* Button Styling */
+  button[type="submit"] {
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 6px; /* Match input border radius */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darken color on hover */
+    transform: translateY(-2px);
+  }
+  
+  button:active {
+    transform: translateY(0);
+  }
+  
